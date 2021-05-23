@@ -65,6 +65,11 @@ Der Lauf endet bei Sheryl Ludescher zuhause. Dort kann man evlt. noch etwas klei
 df_regist = load_preprocess("data/registrations.csv")
 
 st.title('Sola Duo / Trio September 2021')
+
+st.header('Infos')
+st.markdown(info_text)
+
+st.header('Teilnehmer')
 st.write(df_regist)
 
 col1, col2 = st.beta_columns([1.4,1])
@@ -73,8 +78,7 @@ with col1:
 with col2:
     st.plotly_chart(fig_lottery_pie_plot(df_regist), use_container_width=True)
 
-st.header('Infos')
-st.markdown(info_text)
+
 
 
 
