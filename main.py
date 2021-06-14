@@ -72,11 +72,7 @@ st.markdown(info_text)
 st.header('Teilnehmer')
 st.write(df_regist)
 
-col1, col2 = st.beta_columns([1.4,1])
-with col1:
-    st.plotly_chart(fig_category_bar_plot(df_regist), use_container_width=True)
-with col2:
-    st.plotly_chart(fig_lottery_pie_plot(df_regist), use_container_width=True)
+st.plotly_chart(fig_category_bar_plot(df_regist), use_container_width=True)
 
 
 
