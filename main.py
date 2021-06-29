@@ -49,7 +49,7 @@ Im Zweierteam wird die rund 65 - 75 km lange Strecke von Sargans oder Bad Ragaz 
   stets den Läufer eng begleiten muss.
 
 **Datum:**
-**25.09.21**, Verschiebungsdatum 02.10.21
+**25.09.21 (Start: am frühen Morgen)**, Verschiebungsdatum 02.10.21
 
 **Ablauf:**
 - Gepäck Depot bei Sheryl Ludescher ein paar Tage vor dem Lauf oder am frühen Morgen des Laufes selbst. 
