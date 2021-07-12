@@ -5,7 +5,6 @@ import plotly.express as px
 
 def load_preprocess(path):
     df = pd.read_csv(path, encoding='latin1')
-    df.drop(['Phone'], axis = 1, inplace = True)
     df.sort_values(by=['Team', 'Kategorie'], inplace=True)
     df.reset_index(drop=True, inplace=True)
     df.index += 1
