@@ -5,6 +5,7 @@ import plotly.express as px
 
 def load_preprocess(path):
     df = pd.read_csv(path, encoding='latin1')
+    df.drop(['Team_lotterie'], axis=1, inplace=True)
     df.sort_values(by=['Team', 'Kategorie'], inplace=True)
     df.reset_index(drop=True, inplace=True)
     df.index += 1
@@ -19,17 +20,6 @@ def fig_category_bar_plot(df):
     return fig
 
 
-def fig_lottery_pie_plot(df):
-    df_plot = df[['Team_lotterie', 'Name']].groupby(['Team_lotterie']).agg('count').reset_index()
-    df_plot.rename(columns={'Name': 'Anzahl'}, inplace=True)
-    fig = px.pie(df_plot, values='Anzahl', names='Team_lotterie',
-                    title='Teampartner Auslosen?',
-                    color='Team_lotterie',
-                    color_discrete_map={'Ja': px.colors.qualitative.Set3[6],
-                                        'egal': px.colors.qualitative.Pastel[4],
-                                        'Nein': px.colors.qualitative.Plotly[1]})
-    return fig
-
 info_text = '''
 Csaba und Ich (Fabian) hatten das Ziel diesen Sommer am Sola Duo Lauf teilzunehmen, da dieser nun abgesagt ist,
  planen wir einen ähnlichen Lauf selbständig durchzuführen.
@@ -38,6 +28,7 @@ Wir werden nichts Grosses planen, sondern nur der grobe Rahmen organisieren. Es 
  sondern nur eine Challenge für sich selbst.
 
 - Viele gute Tipps und Infos gibt es auf der Website zum orginalen [Sola Duo Lauf](https://www.asvz.ch/event/59394-sola-duo) 
+- [Erfahrungsbericht](https://tomholzweg.jimdo.com/berichte/35-bericht-sola-duo-mit-erich-kunz-21-06-2019/)
 - Konkretere Informationen werden noch folgen
 
 ---
