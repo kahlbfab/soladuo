@@ -39,7 +39,7 @@ Im Zweierteam wird die rund 61.3 km lange Strecke von Sargans nach Tann gemeinsa
 
 **Ablauf**
 - Gepäck Depot (Duschsachen, Kleider zum Umziehen) bei Sheryl Ludescher ein paar Tage vor dem Lauf oder am frühen Morgen des Laufes selbst. 
-Adresse - Erikastrasse 5 8632 Tann ZH am besten mit Sheryl Ludescher 078 976 14 02 absprechen. 
+Adresse - Erikastrasse 5A 8632 Tann ZH am besten mit Sheryl Ludescher 078 976 14 02 absprechen. 
 - Gemeinsame Reise mit dem Zug: 0624 ab Rüti -> 0723 in Sargans
 - **Start: ca. 0745 in Sargans** 
 - Ziel: In Tann bei Sheryl Ludescher Zuhause. Dort kann man duschen und es wird noch Apero und etwas kleines zu Essen geben, falls man Lust hat. 
